@@ -1,3 +1,11 @@
+/* Importing font family*/
+
+@font-face {
+    font-family: Anta;
+    src: url(/fonts/Anta-Regular.ttf);
+}
+
+/* Styling body and home*/
 body {
     background-color: black;
     display: flex;
@@ -97,6 +105,10 @@ p {
 footer {
     background-color: #be0000;
     border-radius: 10px;
+}
+
+h1 {
+    font-family: Anta;
 }
 
 h3 {
